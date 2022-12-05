@@ -1,6 +1,6 @@
 // import 'package:flutter_test/flutter_test.dart';
 
-// import 'package:keyboard_visibility_pro/keyboard_visibility_pro.dart';
+// import 'package:tencent_keyboard_visibility/tencent_keyboard_visibility.dart';
 
 // void main() {
 //   test('adds one to input values', () {

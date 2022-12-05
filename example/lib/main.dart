@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:keyboard_visibility_pro/keyboard_visibility_pro.dart';
+import 'package:tencent_keyboard_visibility/tencent_keyboard_visibility.dart';
 
 void main() {
   runApp(const MaterialApp(

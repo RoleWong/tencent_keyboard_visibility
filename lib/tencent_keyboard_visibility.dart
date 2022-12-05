@@ -1,4 +1,4 @@
-library keyboard_visibility_pro;
+library tencent_keyboard_visibility;
 
 import 'package:flutter/material.dart';
 
@@ -18,19 +18,19 @@ class _KeyboardVisibilityState extends State<KeyboardVisibility>
   bool _isVisible = false;
   @override
   void initState() {
-    WidgetsBinding.instance.addObserver(this);
+    WidgetsBinding.instance?.addObserver(this);
     super.initState();
   }
 
   @override
   void dispose() {
-    WidgetsBinding.instance.removeObserver(this);
+    WidgetsBinding.instance?.removeObserver(this);
     super.dispose();
   }
 
   @override
   void didChangeMetrics() {
-    if (WidgetsBinding.instance.window.viewInsets.bottom > 0.0) {
+    if ((WidgetsBinding.instance?.window.viewInsets.bottom ?? 0.0) > 0.0) {
       if (_isVisible != true) {
         _isVisible = true;
         widget.onChanged.call(_isVisible);

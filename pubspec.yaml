@@ -1,7 +1,7 @@
-name: keyboard_visibility_pro
+name: tencent_keyboard_visibility
 description: A new Flutter keyboard visibility package.
-version: 0.0.1
-homepage: https://github.com/sanjidbillah/keyboard_visibility_pro
+version: 1.0.1
+homepage: https://github.com/RoleWong/tencent_keyboard_visibility
 
 environment:
   sdk: ">=2.12.1 <3.0.0"
